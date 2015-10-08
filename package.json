@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "co": "^4.6.0",
+    "config": "^1.16.0",
+    "js-yaml": "^3.4.2",
+    "knex": "^0.7.6",
+    "lodash": "^3.10.1",
+    "mysql": "^2.9.0",
+    "request": "^2.64.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "NODE_ENV=development node app.js",
+    "migrateup": "NODE_ENV=development node migration.js up",
+    "migratedown": "NODE_ENV=development node migration.js down"
+  },
+  "author": "",
+  "license": "ISC"
+}

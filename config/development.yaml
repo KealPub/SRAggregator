@@ -1,0 +1,6 @@
+#This set you mysql connect
+#mysql:
+#  host: '127.0.0.1'
+#  user: 'root'
+#  password: ''
+#  database: 'testNeotek'
